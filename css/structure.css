@@ -12,10 +12,10 @@ header nav.navbar-color {
     position: fixed;
 }
 header div.center img.logo {
-    width: 10%;
+    width: 55px;
 }
 header .shuffle img {
-    width: 50px;
+    width: 35px;
 }
 header div.center{
     padding-top: 10px;
@@ -33,41 +33,12 @@ header div.center span {
     color: #e0eae1;
 }
 
-@media (max-width: 700px){
-    header div.center img.logo {
-        margin-top: 9px;
-        width: 15%;
-    }
-    header div.center span {
-        font-size: 22px;
-        margin-top: 10px;
-    }
-    header .shuffle img{
-        width: 45px;
-    }
-    div.search div.form-group{
-        margin-top: 100px;
-    }
-}
-
-@media (max-width: 1000px) and (min-width: 700px){
-    header div.center img.logo {
-        margin-top: 2px ;
-    }
-    header div.center span {
-        font-size: 20px;
-    }
-    header .shuffle img{
-        width: 40px;
-    }
-}
-
 /* search area */
 
 div.search {
-    margin-top: 110px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 75px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 div.search .input-group{
@@ -84,4 +55,52 @@ div.search div .btn-purple {
 div.search div input.form-control {
     border-radius: 15px;
     border-color: #e3d7f1;
+    font-size: 15px;
+}
+
+@media (max-width: 725px){
+    div.search {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+div.titles {
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+hr.division {
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+vid.titles div div {
+    margin-top: 20px;
+}
+
+hr.partition {
+    margin-left: 50%;
+    margin-right: 50%;
+    border-color: #c6a9e1;
+}
+
+@media (max-width: 500px){
+    div.titles {
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+    div.titles {
+        margin-left: 70px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1500px){
+    div.titles {
+        margin-left: 80px;
+    }
 }
