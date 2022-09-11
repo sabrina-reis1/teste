@@ -6,11 +6,6 @@ body {
 
 /* header */
 
-header {
-    position: -webkit-sticky;
-    position: sticky;
-}
-
 header nav.navbar-color {
     background-color: #175563;
     padding-bottom: 10px;
@@ -36,7 +31,6 @@ header .shuffle{
 header div.center span {
     font: 24px bold;
     color: #e0eae1;
-    font-family: 'Komoda';
 }
 
 /* search area */
@@ -51,12 +45,6 @@ div.search .input-group{
     width: 100%;
 }
 
-.nav-cont {
-    margin-top: 50px;
-    padding: 65px;
-    background-color: white;
-}
-
 div.search div .btn-purple {
     background-color: #c6a9e1;
     color: #f7f8fc;
@@ -68,10 +56,6 @@ div.search div input.form-control {
     border-radius: 15px;
     border-color: #e3d7f1;
     font-size: 15px;
-}
-
-div.search img {
-    width: 13px;
 }
 
 @media (max-width: 725px){
@@ -95,23 +79,15 @@ hr.division {
     font-size: 15px;
 }
 
-div.titles div {
-    margin-top: 60px;
-}
-
-header {
-    margin-bottom: 180px;
-    z-index: 1;
+vid.titles div div {
+    margin-top: 20px;
 }
 
 hr.partition {
     margin-left: 50%;
-    margin-top: 120px;
     margin-right: 50%;
     border-color: #c6a9e1;
 }
-
-/*footer*/
 
 footer {
     background-color: #e1ebe2;
@@ -194,4 +170,3 @@ img.logo-comp {
     }
     
 }
-
