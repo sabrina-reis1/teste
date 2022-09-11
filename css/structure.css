@@ -6,6 +6,11 @@ body {
 
 /* header */
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
 header nav.navbar-color {
     background-color: #175563;
     padding-bottom: 10px;
@@ -31,6 +36,7 @@ header .shuffle{
 header div.center span {
     font: 24px bold;
     color: #e0eae1;
+    font-family: 'Komoda';
 }
 
 /* search area */
@@ -45,6 +51,12 @@ div.search .input-group{
     width: 100%;
 }
 
+.nav-cont {
+    margin-top: 50px;
+    padding: 65px;
+    background-color: white;
+}
+
 div.search div .btn-purple {
     background-color: #c6a9e1;
     color: #f7f8fc;
@@ -56,6 +68,10 @@ div.search div input.form-control {
     border-radius: 15px;
     border-color: #e3d7f1;
     font-size: 15px;
+}
+
+div.search img {
+    width: 13px;
 }
 
 @media (max-width: 725px){
@@ -79,17 +95,73 @@ hr.division {
     font-size: 15px;
 }
 
-vid.titles div div {
-    margin-top: 20px;
+div.titles div {
+    margin-top: 60px;
+}
+
+header {
+    margin-bottom: 180px;
+    z-index: 1;
 }
 
 hr.partition {
     margin-left: 50%;
+    margin-top: 120px;
     margin-right: 50%;
     border-color: #c6a9e1;
 }
 
-@media (max-width: 500px){
+/*footer*/
+
+footer {
+    background-color: #e1ebe2;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.logo-footer {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer div.row {
+    margin-left: 20%;
+    margin-top: 60px;
+    margin-right: 20%;
+}
+
+footer img.amazon-logo {
+    margin-top: 20px;
+    width: 100px;
+}
+
+footer img.saraiva-logo {
+    width: 150px;
+}
+
+.footer-ele {
+    text-align: center;
+}
+
+img.logo-comp {
+    width: 70px;
+}
+
+.footer-ele div.row {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.footer-ele p:last-child {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px){
     div.titles {
         margin-top: 15px;
         margin-left: 5%;
@@ -97,10 +169,29 @@ hr.partition {
     div.titles {
         margin-left: 70px;
     }
+    .nav-cont {
+        margin-top: 50px;
+        padding: 110px;
+    }
+    header {
+        margin-bottom: 270px;
+    }
+    .logo-footer {
+        width: 20%
+    }
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer div.row div {
+        margin-top: 60px;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 1500px){
     div.titles {
         margin-left: 80px;
     }
+    
 }
+
